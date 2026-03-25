@@ -44,7 +44,7 @@ Com foco em:
 
 ## 📷 Funcionalidades
 
-* Seção de apresentação (Hero)
+* Home Page 
 * Exibição de produtos
 * Destaques da marca
 * Depoimentos
