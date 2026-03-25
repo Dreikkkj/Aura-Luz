@@ -1,16 +1,63 @@
+/*Plano de fundo*/
 body {
- background-image: url('./src/slogan.png');
- background-repeat: no-repeat;
- background-size: contain;
- background-color: rgba(170, 91, 0, 0.789);
- 
+    background-image: url('./src/slogan.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(170, 91, 0, 0.789);
+
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/*Título Principal*/
 .maintitle {
+    font-family: "Playfair Display", serif;
     display: flex;
-    font-size: 30px;
-    margin-left: 95px;
-    margin-top: 230px;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 180px;
     color: #8C5A3C;
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+    display: inline-block;
+    border-bottom-color: rgba(131, 66, 10, 0.882);
 }
 
+/*Subtítulo*/
+.subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    margin-left: 95px;
+    color: #4b2107a3
+}
+
+/*Botão ver produtos*/
+
+.verprodutos {
+    display: inline-block;
+    padding: 17px 35px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background: linear-gradient(145deg, #6b3f1d, #54361a);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-left: 280px;
+}
+
+.verprodutos:hover {
+    background: linear-gradient(145deg, #8b5a2b, #a86b3a);
+    transform: scale(1.05);
+}
+
+#sobre img {
+    width: 1519px;
+    height: 500px;
+    display: block;
+    margin-top: 165px;
+    margin-left: -7px;
+}
