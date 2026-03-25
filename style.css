@@ -1,0 +1,16 @@
+body {
+ background-image: url('./src/slogan.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-color: rgba(170, 91, 0, 0.789);
+ 
+}
+
+.maintitle {
+    display: flex;
+    font-size: 30px;
+    margin-left: 95px;
+    margin-top: 230px;
+    color: #8C5A3C;
+}
+
